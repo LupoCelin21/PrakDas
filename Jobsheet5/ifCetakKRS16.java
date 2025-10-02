@@ -12,5 +12,10 @@ public class ifCetakKRS16 {
             System.out.println("Silahkan Cetak KRS dan Minta tanda tangan DPA");
         }
 
+        else {
+            System.out.println("Registrasi ditolak");
+            System.out.println("Silakan lunasi UKT terlebih dahulu");
+        }
+        
     }
 }
