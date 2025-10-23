@@ -17,13 +17,19 @@ public class SiakadFor16 {
         if (nilai < terendah){
             terendah = nilai;
         }
-     
+        if (nilai >= 60){
+            lulus++;
+        }else {
+            tidaklulus++;
+        }
+  
  
 
     }
     System.out.println("Nilai tertinggi: "+ tertinggi);
     System.out.println("Nilai tertinggi: "+ terendah);
-
+    System.out.println("Status: "+ lulus);
+    System.out.println("status: "+ tidaklulus);
 
     }
 }
