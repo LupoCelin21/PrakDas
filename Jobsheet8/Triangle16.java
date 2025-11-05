@@ -13,7 +13,7 @@ public static void main(String[] args) {
          j++;
     }
     i++;
-    
+    System.out.println();
 }
 }
 }
