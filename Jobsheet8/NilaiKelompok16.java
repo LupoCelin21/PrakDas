@@ -29,6 +29,9 @@ public static void main(String[] args) {
             System.out.println(": nilai rata-rata = " + ratanilai);
             i++;
         }
+         System.out.println("Hasil Kelompok tertinggi");
+        System.out.println("kelompok tertinggi " + keltertinggi );
+        System.out.println("Nilai rata-rata kelompok : " + ratatertinggi);
 
 }
 }
