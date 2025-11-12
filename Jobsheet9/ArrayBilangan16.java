@@ -1,20 +1,13 @@
-import java.util.Scanner;
+
 public class ArrayBilangan16 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        double [] bill = {5.0, 12867, 7.5, 2000000};
 
-        int[] bill = new int[4];
+        System.out.println("output menggunakan for loop: ");
 
-        bill[0] = 5;
-        bill[1] = 13;
-        bill[2] = -7;
-        bill[3] = 17;
-
-        System.out.println(bill[0]);
-        System.out.println(bill[1]);
-        System.out.println(bill[2]);
-        System.out.println(bill[3]);
-        
+       for (int i = 0; i < 4; i++) {
+    System.out.println(bill [i]);
+    }
 
     }
 }
